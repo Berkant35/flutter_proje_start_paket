@@ -1,0 +1,48 @@
+name: vakko_c72
+description: Vakko c72 Etiket işlevini yok etme
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #ui_helpers
+  sizer: ^2.0.15
+
+  #state managment
+  flutter_riverpod: ^1.0.3
+  state_notifier: ^0.7.2+1
+
+  #network_manager:
+
+
+  #Model Works
+  json_annotation: ^4.5.0
+  json_serializable: ^6.2.0
+
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.1.11
+  flutter_lints: ^2.0.1
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
+
